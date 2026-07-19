@@ -8,7 +8,7 @@ cask "ghostpin" do
   desc "Pin any window always on top, with click-through ghost mode"
   homepage "https://aadhilfarhan.github.io/GhostPin/"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "GhostPin.app"
 end
