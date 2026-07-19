@@ -1,6 +1,6 @@
 cask "ghostpin" do
-  version "0.1.0"
-  sha256 "58a4c35635808c403beb232e580132ff2eb22028a0952838f2b90281e224d79c"
+  version "0.2.0"
+  sha256 "5d2b407200441f35fca160a329c3214727bb9bf0888aa25599583a28fbfdc330"
 
   url "https://github.com/AadhilFarhan/GhostPin/releases/download/v#{version}/GhostPin.dmg",
       verified: "github.com/AadhilFarhan/GhostPin/"
