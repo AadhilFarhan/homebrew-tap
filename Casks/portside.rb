@@ -1,6 +1,6 @@
 cask "portside" do
   version "0.1.0"
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  sha256 "31c87da9b52830daf6004c21ccee2e3cda19650e0c7dd8222b40576b5eafccb4"
 
   url "https://github.com/AadhilFarhan/Portside/releases/download/v#{version}/Portside.dmg",
       verified: "github.com/AadhilFarhan/Portside/"
