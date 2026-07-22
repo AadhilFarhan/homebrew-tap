@@ -10,7 +10,11 @@ Pin any macOS window always on top, with click-through ghost mode — [website](
 brew install --cask aadhilfarhan/tap/ghostpin
 ```
 
-Homebrew verifies the release checksum automatically. Until GhostPin releases are notarized, macOS will still ask you to allow the app on first open (System Settings → Privacy & Security → Open Anyway), or install with `--no-quarantine` to skip that.
+Homebrew verifies the release checksum automatically. Until GhostPin releases are notarized, macOS will still ask you to allow the app on first open (System Settings → Privacy & Security → Open Anyway), or skip that with:
+
+```bash
+HOMEBREW_CASK_OPTS="--no-quarantine" brew install --cask aadhilfarhan/tap/ghostpin
+```
 
 This tap is updated automatically by GhostPin's release workflow.
 
